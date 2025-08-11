@@ -1,9 +1,9 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\Quality as QualityEnum;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Transformations\Enums\Quality as QualityEnum;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class Quality implements TransformationInterface
 {
@@ -18,7 +18,7 @@ class Quality implements TransformationInterface
 
         $quality = QualityEnum::tryFrom($qualityValue);
 
-        if (! $quality instanceof \Vormkracht10\UploadcareTransformations\Transformations\Enums\Quality) {
+        if (! $quality instanceof \Backstage\UploadcareTransformations\Transformations\Enums\Quality) {
             throw new \InvalidArgumentException('Invalid quality');
         }
 

@@ -1,6 +1,6 @@
 <?php
 
-use Vormkracht10\UploadcareTransformations\UploadcareTransformation;
+use Backstage\UploadcareTransformations\UploadcareTransformation;
 
 if (! function_exists('uploadcare')) {
     function uploadcare(string $uuidOrUrl, ?string $cdnOrProxyUrl = null): UploadcareTransformation

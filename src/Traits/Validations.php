@@ -1,6 +1,6 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Traits;
+namespace Backstage\UploadcareTransformations\Traits;
 
 trait Validations
 {

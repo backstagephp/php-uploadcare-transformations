@@ -1,9 +1,9 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\Color;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Transformations\Enums\Color;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class BasicColorAdjustments implements TransformationInterface
 {
@@ -20,7 +20,7 @@ class BasicColorAdjustments implements TransformationInterface
         $color = Color::tryFrom($colorValue);
         $value = $args[1];
 
-        if (! $color instanceof \Vormkracht10\UploadcareTransformations\Transformations\Enums\Color) {
+        if (! $color instanceof \Backstage\UploadcareTransformations\Transformations\Enums\Color) {
             throw new \InvalidArgumentException('Invalid color');
         }
 

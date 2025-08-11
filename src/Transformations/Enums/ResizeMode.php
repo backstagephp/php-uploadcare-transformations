@@ -1,6 +1,6 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations\Enums;
+namespace Backstage\UploadcareTransformations\Transformations\Enums;
 
 enum ResizeMode: string
 {

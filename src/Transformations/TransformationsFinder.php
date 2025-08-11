@@ -1,6 +1,6 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
 class TransformationsFinder
 {
@@ -82,7 +82,7 @@ class TransformationsFinder
      * Get all transformations
      *
      * @param array<array<array<string>>> $transformations
-     * @return array<array{class: \Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface, values: array<array<string>>}>
+     * @return array<array{class: \Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface, values: array<array<string>>}>
      */
     public static function for(array $transformations): array
     {

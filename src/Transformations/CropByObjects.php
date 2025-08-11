@@ -1,11 +1,11 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Traits\Validations;
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\Offset;
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\Tag;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Traits\Validations;
+use Backstage\UploadcareTransformations\Transformations\Enums\Offset;
+use Backstage\UploadcareTransformations\Transformations\Enums\Tag;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class CropByObjects implements TransformationInterface
 {

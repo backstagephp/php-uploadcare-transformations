@@ -1,9 +1,9 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\Filter as FilterEnum;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Transformations\Enums\Filter as FilterEnum;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class Filter implements TransformationInterface
 {

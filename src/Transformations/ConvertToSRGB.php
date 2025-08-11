@@ -1,9 +1,9 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\ColorProfile;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Transformations\Enums\ColorProfile;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class ConvertToSRGB implements TransformationInterface
 {

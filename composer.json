@@ -1,11 +1,11 @@
 {
-    "name": "vormkracht10/php-uploadcare-transformations",
+    "name": "backstage/php-uploadcare-transformations",
     "description": "Composer package for generating URLs using Uploadcare for image transformations and processing.",
     "keywords": [
-        "vormkracht10",
+        "backstage",
         "php-uploadcare-transformations"
     ],
-    "homepage": "https://github.com/vormkracht10/php-uploadcare-transformations",
+    "homepage": "https://github.com/backstagephp/php-uploadcare-transformations",
     "license": "MIT",
     "authors": [
         {
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vormkracht10\\UploadcareTransformations\\": "src"
+            "Backstage\\UploadcareTransformations\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -34,7 +34,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Vormkracht10\\UploadcareTransformations\\Tests\\": "tests"
+            "Backstage\\UploadcareTransformations\\Tests\\": "tests"
         }
     },
     "scripts": {

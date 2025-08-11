@@ -1,8 +1,8 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations;
+namespace Backstage\UploadcareTransformations;
 
-use Vormkracht10\UploadcareTransformations\Transformations\TransformationsFinder;
+use Backstage\UploadcareTransformations\Transformations\TransformationsFinder;
 
 class UploadcareTransformation extends Transformations implements \Stringable
 {

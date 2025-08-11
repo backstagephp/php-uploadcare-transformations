@@ -1,11 +1,11 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Traits\Validations;
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\CropType;
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\Offset;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Traits\Validations;
+use Backstage\UploadcareTransformations\Transformations\Enums\CropType;
+use Backstage\UploadcareTransformations\Transformations\Enums\Offset;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class SmartCrop implements TransformationInterface
 {
@@ -31,7 +31,7 @@ class SmartCrop implements TransformationInterface
         $offsetX = $args[3] ?? null;
         $offsetY = $args[4] ?? null;
 
-        if (! $type instanceof \Vormkracht10\UploadcareTransformations\Transformations\Enums\CropType) {
+        if (! $type instanceof \Backstage\UploadcareTransformations\Transformations\Enums\CropType) {
             throw new \InvalidArgumentException('Invalid crop type');
         }
 

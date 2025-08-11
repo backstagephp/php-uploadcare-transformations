@@ -1,9 +1,9 @@
 <?php
 
-namespace Vormkracht10\UploadcareTransformations\Transformations;
+namespace Backstage\UploadcareTransformations\Transformations;
 
-use Vormkracht10\UploadcareTransformations\Transformations\Enums\ResizeMode;
-use Vormkracht10\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
+use Backstage\UploadcareTransformations\Transformations\Enums\ResizeMode;
+use Backstage\UploadcareTransformations\Transformations\Interfaces\TransformationInterface;
 
 class Resize implements TransformationInterface
 {

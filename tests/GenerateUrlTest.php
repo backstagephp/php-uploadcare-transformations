@@ -64,9 +64,9 @@ it('adds preview automatically to url when using blur_region, enhance, filter or
 });
 
 it('can generate a proxy url for urls', function () {
-    $url = (string) uploadcare('https://vormkracht10.nl/favicon.ico', 'https://35af4783157afd60f75d.ucr.io/');
+    $url = (string) uploadcare('https://backstagephp.com/favicon.ico', 'https://35af4783157afd60f75d.ucr.io/');
 
-    expect($url)->toBe('https://35af4783157afd60f75d.ucr.io/https://vormkracht10.nl/favicon.ico');
+    expect($url)->toBe('https://35af4783157afd60f75d.ucr.io/https://backstagephp.com/favicon.ico');
 });
 
 it('can clone objects for multiple transformations', function () {

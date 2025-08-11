@@ -1,11 +1,11 @@
 # Easy [Uploadcare](https://uploadcare.com/?via=vk10) Image Transformation URLs generation
 
-[![Total Downloads](https://img.shields.io/packagist/dt/vormkracht10/php-uploadcare-transformations.svg?style=flat-square)](https://packagist.org/packages/vormkracht10/php-uploadcare-transformations)
-[![Tests](https://github.com/vormkracht10/php-uploadcare-transformations/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/vormkracht10/php-uploadcare-transformations/actions/workflows/run-tests.yml)
-[![PHPStan](https://github.com/vormkracht10/php-uploadcare-transformations/actions/workflows/phpstan.yml/badge.svg?branch=main)](https://github.com/vormkracht10/php-uploadcare-transformations/actions/workflows/phpstan.yml)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/vormkracht10/php-uploadcare-transformations)
-![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/vormkracht10/php-uploadcare-transformations)
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/vormkracht10/php-uploadcare-transformations.svg?style=flat-square)](https://packagist.org/packages/vormkracht10/php-uploadcare-transformations)
+[![Total Downloads](https://img.shields.io/packagist/dt/backstage/php-uploadcare-transformations.svg?style=flat-square)](https://packagist.org/packages/backstage/php-uploadcare-transformations)
+[![Tests](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/run-tests.yml)
+[![PHPStan](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/phpstan.yml/badge.svg?branch=main)](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/phpstan.yml)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/backstage/php-uploadcare-transformations)
+![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/backstage/php-uploadcare-transformations)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/backstage/php-uploadcare-transformations.svg?style=flat-square)](https://packagist.org/packages/backstage/php-uploadcare-transformations)
 
 Generate [Uploadcare](https://uploadcare.com/?via=vk10) image processing URLs to transform and process your images. No need to write or generate the URL yourself. Just pass the UUID of the file, optionally pass the custom CDN and chain the methods you want to apply and the package generates the URL for you.
 
@@ -64,7 +64,7 @@ Generate [Uploadcare](https://uploadcare.com/?via=vk10) image processing URLs to
 You can install the package via composer:
 
 ```bash
-composer require vormkracht10/php-uploadcare-transformations
+composer require backstage/php-uploadcare-transformations
 ```
 
 ## Usage
@@ -86,7 +86,7 @@ composer require vormkracht10/php-uploadcare-transformations
 </ol>
 
 ```php
-use Vormkracht10\UploadcareTransformations\UploadcareTransformation;
+use Backstage\UploadcareTransformations\UploadcareTransformation;
 
 $uuid = '12a3456b-c789-1234-1de2-3cfa83096e25';
 $cdnUrl = 'https://example.com/cdn/';

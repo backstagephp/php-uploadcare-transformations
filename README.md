@@ -1,8 +1,8 @@
 # Easy [Uploadcare](https://uploadcare.com/?via=vk10) Image Transformation URLs generation
 
 [![Total Downloads](https://img.shields.io/packagist/dt/backstage/php-uploadcare-transformations.svg?style=flat-square)](https://packagist.org/packages/backstage/php-uploadcare-transformations)
-[![Tests](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/run-tests.yml)
-[![PHPStan](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/phpstan.yml/badge.svg?branch=main)](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/phpstan.yml)
+[![Tests](https://github.com/backstagephp/php-uploadcare-transformations/actions/workflows/run-tests.yml/badge.svg?branch=main)](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/run-tests.yml)
+[![PHPStan](https://github.com/backstagephp/php-uploadcare-transformations/actions/workflows/phpstan.yml/badge.svg?branch=main)](https://github.com/backstage/php-uploadcare-transformations/actions/workflows/phpstan.yml)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/backstage/php-uploadcare-transformations)
 ![Packagist PHP Version Support](https://img.shields.io/packagist/php-v/backstage/php-uploadcare-transformations)
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/backstage/php-uploadcare-transformations.svg?style=flat-square)](https://packagist.org/packages/backstage/php-uploadcare-transformations)

@@ -338,7 +338,7 @@ class Transformations
      */
     public function autoRotate(bool $rotate): self
     {
-        $this->transformations['auto_rotate'] = AutoRotate::transform();
+        $this->transformations['auto_rotate'] = AutoRotate::transform($rotate);
 
         return $this;
     }

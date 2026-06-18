@@ -198,3 +198,10 @@ it('can strip meta information', function () {
     $url = (string) $transformation->stripMeta('sensitive');
     expect($url)->toBe('https://ucarecdn.com/12a3456b-c789-1234-1de2-3cfa83096e25/-/strip_meta/sensitive/');
 });
+
+it('honors the boolean argument in autoRotate', function () {
+    $uuid = '12a3456b-c789-1234-1de2-3cfa83096e25';
+
+    expect((string) uploadcare($uuid)->autoRotate(true))->toContain('-/autorotate/yes/');
+    expect((string) uploadcare($uuid)->autoRotate(false))->toContain('-/autorotate/no/');
+});

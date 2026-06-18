@@ -199,6 +199,17 @@ it('can strip meta information', function () {
     expect($url)->toBe('https://ucarecdn.com/12a3456b-c789-1234-1de2-3cfa83096e25/-/strip_meta/sensitive/');
 });
 
+it('omits the amount segment in filter when no amount is given', function () {
+    $uuid = '12a3456b-c789-1234-1de2-3cfa83096e25';
+
+    $url = (string) uploadcare($uuid)->filter('adaris');
+    expect($url)->toContain('-/filter/adaris/');
+    expect($url)->not->toContain('adaris//');
+
+    $url = (string) uploadcare($uuid)->filter('adaris', 50);
+    expect($url)->toContain('-/filter/adaris/50/');
+});
+
 it('honors the boolean argument in autoRotate', function () {
     $uuid = '12a3456b-c789-1234-1de2-3cfa83096e25';
 

@@ -48,7 +48,11 @@ class Filter implements TransformationInterface
     public static function generateUrl(string $url, array $values): string
     {
         // -/filter/:name/:amount/
-        $url .= '-/filter/' . $values['name'] . '/' . $values['amount'] . '/';
+        if ($values['amount'] === null) {
+            $url .= '-/filter/' . $values['name'] . '/';
+        } else {
+            $url .= '-/filter/' . $values['name'] . '/' . $values['amount'] . '/';
+        }
 
         return $url;
     }

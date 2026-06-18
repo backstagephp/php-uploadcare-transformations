@@ -83,3 +83,9 @@ it('can validate resize mode enum', function () {
 
     $transformation->resize(width: 500, height: 500, stretch: false, mode: 'invalid_resize_mode');
 })->throws('Invalid resize mode');
+
+it('throws when iccProfileSizeThreshold is used without convertToSRGB', function () {
+    $uuid = '12a3456b-c789-1234-1de2-3cfa83096e25';
+
+    (string) uploadcare($uuid)->iccProfileSizeThreshold(10);
+})->throws(\InvalidArgumentException::class, 'iccProfileSizeThreshold requires convertToSRGB');

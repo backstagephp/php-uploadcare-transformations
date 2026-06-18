@@ -20,7 +20,7 @@ class Blur implements TransformationInterface
 
         return [
             self::STRENGTH => $strength,
-            self::AMOUNT => $strength,
+            self::AMOUNT => $amount,
         ];
     }
 

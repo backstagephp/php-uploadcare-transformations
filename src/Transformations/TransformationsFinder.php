@@ -98,6 +98,10 @@ class TransformationsFinder
             // We need to check if ICCProfileSizeThreshold is used because it is a special case.
             // This is because the URL transformation is a part of the ConvertToSRGB transformation.
             if ($transformation === self::ICC_PROFILE_SIZE_THRESHOLD) {
+                if (! isset($transformations[self::CONVERT_TO_SRGB])) {
+                    throw new \InvalidArgumentException('iccProfileSizeThreshold requires convertToSRGB');
+                }
+
                 $classes[self::CONVERT_TO_SRGB] = [
                     'class' => new ConvertToSRGB(),
                     'values' => [

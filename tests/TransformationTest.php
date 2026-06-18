@@ -198,3 +198,7 @@ it('can strip meta information', function () {
     $url = (string) $transformation->stripMeta('sensitive');
     expect($url)->toBe('https://ucarecdn.com/12a3456b-c789-1234-1de2-3cfa83096e25/-/strip_meta/sensitive/');
 });
+
+it('uses the correct amount argument in blur', function () {
+    expect((string) uploadcare('12a3456b-c789-1234-1de2-3cfa83096e25')->blur(10, 5))->toContain('-/blur/10/5/');
+});

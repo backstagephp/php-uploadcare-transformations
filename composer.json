@@ -19,7 +19,7 @@
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.85",
-        "pestphp/pest": "^2.0",
+        "pestphp/pest": "^2.0 || ^5.0",
         "phpstan/phpstan": "^2.3.6",
         "rector/rector": "^2.8.5",
         "spatie/ray": "^1.42"
@@ -38,7 +38,7 @@
         }
     },
     "scripts": {
-        "test": "vendor/bin/pest",
+        "test": "vendor/bin/pest --no-coverage",
         "test-coverage": "vendor/bin/pest --coverage",
         "format": "vendor/bin/php-cs-fixer fix --allow-risky=yes"
     },

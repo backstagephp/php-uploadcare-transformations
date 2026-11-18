@@ -47,7 +47,7 @@ class Resize implements TransformationInterface
         } elseif ($values['height'] !== null && $values['width'] == null) {
             // -/resize/:one_or_two_dimensions/
             $url .= $resizePrefix . $values['height'] . 'x' . '/';
-        } elseif ($values['height'] !== null && $values['width'] !== null) {
+        } elseif ($values['height'] !== null) {
             // -/resize/:one_or_two_dimensions/
             $url .= $resizePrefix . $values['width'] . 'x' . $values['height'] . '/';
         }

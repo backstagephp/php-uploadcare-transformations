@@ -56,7 +56,7 @@ Generate [Uploadcare](https://uploadcare.com/?via=vk10) image processing URLs to
 ## Requirements
 
 <ul>
-  <li>PHP 8.1+</li>
+  <li>PHP 8.3+</li>
 </ul>
 
 ## Installation

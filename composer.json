@@ -20,8 +20,8 @@
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^3.85",
         "pestphp/pest": "^2.0",
-        "phpstan/phpstan": "^1.12",
-        "rector/rector": "^1.0",
+        "phpstan/phpstan": "^2.3.6",
+        "rector/rector": "^2.8.5",
         "spatie/ray": "^1.42"
     },
     "autoload": {
